@@ -149,7 +149,7 @@ int main(void)
 
         fflush(stdout);
 
-        int cost;
+        double cost;
         option = -1;
         Coordinate** solution = malloc((lengthOfInput + 1) * sizeof(Coordinate*));
         while (option == -1)
